@@ -1,0 +1,58 @@
+body{
+    font-family: Georgia, "Times New Roman, Times, serif";
+    font-size: 13px;
+}
+.wrapper-Row1 {
+    background: #333333;
+    color: #C0BAB6;
+}
+header {
+    width: 950px;
+    margin: 0 auto;
+    overflow: auto;
+}
+div#hgroup {
+    width: 290px;
+    float: left;
+    margin-top: 30px;
+}
+#hgroup h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+#hgroup h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+header nav {
+    width: 530px;
+    float: right;
+    background: #120101;
+    margin: 30px 0 30px 30px;
+    color: white;
+}
+header nav ul li {
+    display: inline;
+    font-size: 17px;
+    margin-right: 20px;
+}
+div#wrapper-Row2 {
+    width: 950px;
+}
+div#wrapper-Row2 {
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+#wrapper-Row2 figure {
+    width: 950px;
+    margin: 0;
+    padding: 0;
+}
+figure img {
+    width: 950px;
+    padding-left: 0;
+    margin-left: 0;
+}
