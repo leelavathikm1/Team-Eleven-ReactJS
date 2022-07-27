@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML-4-Basic-Layout</title>
+    <style>
+      div#container {
+        border: 2px solid;
+      }
+      .headerDiv {
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 50px;
+        margin: 10px;
+      }
+      h2 {
+        padding-top: 10px;
+      }
+      div#parent {
+        margin: 10px;
+        overflow: auto;
+      }
+      div#listItems {
+        background: gray;
+        width: 215px;
+        height: 200px;
+        float: left;
+      }
+      .Paragraph {
+        /* background: aquamarine; */
+        width: 600px;
+        float: right;
+        height: 200px;
+      }
+      ul {
+        list-style-type: none;
+      }
+      li {
+        line-height: 1.5;
+      }
+      div#footer {
+        background: black;
+        height: 50px;
+        margin: 10px;
+        color: white;
+      }
+      h4 {
+        text-align: center;
+        padding-top: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div class="headerDiv">
+        <h2>My First Div Layout</h2>
+      </div>
+      <div id="parent">
+        <div id="listItems">
+          <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+            <li>Bootstrap</li>
+            <li>ReactJS</li>
+          </ul>
+        </div>
+        <div class="Paragraph">
+          <h3>FrontEnd Development Course Details</h3>
+          <p>
+            A UI developer's role is to translate creative software design
+            concepts and ideas into reality using front end technology
+          </p>
+          <p>
+            They understand the user interface design solution both in its
+            practical intent and creative vision, and convert it into engineered
+            softwares.
+          </p>
+        </div>
+      </div>
+      <div id="footer">
+        <h4>Copy Rights @ FrontEnd Development</h4>
+      </div>
+    </div>
+  </body>
+</html>

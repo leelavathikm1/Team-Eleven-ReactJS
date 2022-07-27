@@ -1,0 +1,16 @@
+h3{
+    font-size: 30px;
+    background-color: aquamarine;
+}
+h4{
+    color: rgb(117, 22, 22);
+    border: 2px solid;
+}
+h6 {
+    font-size: 50px;
+    background-color: aqua;
+  }
+  h5 {
+    color: blue;
+    border: 10px solid red;
+  }

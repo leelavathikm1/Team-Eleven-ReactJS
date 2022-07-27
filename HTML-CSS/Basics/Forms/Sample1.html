@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+    <style>
+      form {
+        background-color: aqua;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <form style="width: 400px">
+      <fieldset>
+        <legend>Student details</legend>
+        <label for="fName">Enter Name</label>
+        <input type="text" disabled />
+        <br /><br />
+        <label for="">Enter Age</label>
+        <input type="number" required />
+        <br /><br />
+        <label for="">Email</label>
+        <input type="email" readonly />
+        <br />
+        <input type="password" placeholder="Enter Passwaord" size="30" />
+        <br />
+        <label for="">Search</label>
+        <input type="search" />
+        <br />
+        <input type="date" autofocus />
+        <br />
+        <input type="month" />
+        <br /><br />
+        <label for="">Gender</label><br />
+        <input type="radio" />Male
+        <br />
+        <input type="radio" />Female
+        <br />
+        <label for="">CheckBox</label>
+        <br />
+        <input type="checkbox" />HTML <input type="checkbox" />CSS
+        <input type="checkbox" />JavaScript
+        <br />
+        <br />
+        <select>
+          <option>Laptop Names</option>
+          <option>HP</option>
+          <option>Lenovo</option>
+          <option>Acer</option>
+          <option selected>MI NoteBook</option>
+          <option>Dell</option>
+        </select>
+
+        <br />
+        <input type="range" />
+        <br />
+        <button>Sign In</button>
+        <input type="button" value="Submit" />
+        <br />
+        <textarea name="" id="" cols="5" rows="4"> </textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>

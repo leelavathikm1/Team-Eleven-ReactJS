@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic Layout</title>
+    <style>
+      .container {
+        border: 2px solid;
+      }
+      header {
+        border: 2px solid;
+        height: 50px;
+        text-align: center;
+        margin: 10px;
+      }
+      nav {
+        border: 2px solid;
+        margin: 10px;
+        height: 50px;
+        text-align: center;
+      }
+      div#parent {
+        margin: 10px;
+        overflow: auto;
+      }
+      div#subParent {
+        width: 590px;
+        float: left;
+      }
+      section {
+        border: 2px solid;
+        text-align: center;
+        height: 100px;
+      }
+      article {
+        border: 2px solid;
+        height: 100px;
+        margin-top: 10px;
+        text-align: center;
+      }
+      aside {
+        border: 2px solid;
+        height: 215px;
+        width: 225px;
+        float: right;
+        text-align: center;
+      }
+      footer {
+        border: 2px solid;
+        margin: 10px;
+        height: 50px;
+        text-align: center;
+      }
+      li {
+        display: inline;
+        margin-right: 115px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>Head Section</header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>AboutUs</li>
+          <li>Gallery</li>
+          <li>Dress Collection</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      <div id="parent">
+        <div id="subParent">
+          <section>Section</section>
+          <article>Article</article>
+        </div>
+        <aside>Aside</aside>
+      </div>
+      <footer>Footer Section</footer>
+    </div>
+  </body>
+</html>
