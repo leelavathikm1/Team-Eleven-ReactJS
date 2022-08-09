@@ -1,3 +1,6 @@
+*{
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
 body{
     font-family: Georgia, "Times New Roman, Times, serif";
     font-size: 13px;
@@ -55,4 +58,63 @@ figure img {
     width: 950px;
     padding-left: 0;
     margin-left: 0;
+}
+div#divsParent {
+    margin-top: 15px;
+    overflow: auto;
+}
+.divs {
+    width: 309px;
+    float: left;
+    margin-right: 15px;
+}
+#divsParent figure {
+    padding: 5px;
+    width: 289px;
+    /* margin-right: 20px; */
+    border: 1px solid;
+}
+#divsParent figure img {
+    width: 280px;
+}
+#divsParent figcaption p {
+    float: right;
+}
+#divsParent figcaption p a {
+    color: orange;
+}
+div#lastDiv {
+    float: right;
+    width: 301px;
+}
+#divsParent #lastDiv figure img {
+    width: 289px;
+}
+div#articleParent {
+    overflow: auto;
+}
+article {
+    width: 400px;
+    float: left;
+}
+div#articleImage {
+    width: 450px;
+    float: right;
+    border: 1px solid;
+    padding: 5px;
+}
+div#wrapper-Row3 {
+    color: white;
+    background: black;
+}
+div#parentSection {
+    width: 950px;
+    margin: auto;
+    overflow: auto;
+}
+section {
+    float: left;
+}
+div#lastSection {
+    float: right;
 }
