@@ -1,0 +1,46 @@
+.container {
+    border: 2px solid;
+}
+header {
+    border: 2px solid;
+    margin: 10px;
+    height: 70px;
+}
+nav {
+    border: 2px solid;
+    margin: 10px;
+    height: 70px;
+    text-align: center;
+}
+.parent {
+    margin: 10px;
+    overflow: auto;
+}
+aside {
+    width: 450px;
+    float: right;
+    border: 2px solid;
+    height: 215px;
+}
+.sectionParent {
+    width: 680px;
+    float: left;
+}
+div#section1 {
+    border: 2px solid;
+    height: 100px;
+    text-align: left;
+}
+div#section2 {
+    border: 2px solid;
+    height: 100px;
+    margin-top: 10px;
+}
+footer {
+    border: 2px solid;
+    margin: 10px;
+    height: 60px;
+}
+*{
+    text-align: center;
+}
