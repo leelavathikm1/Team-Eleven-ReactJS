@@ -5,9 +5,14 @@ body{
     font-family: Georgia, "Times New Roman, Times, serif";
     font-size: 13px;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+}
 .wrapper-Row1 {
     background: #333333;
     color: #C0BAB6;
+    display: flex;
 }
 header {
     width: 950px;

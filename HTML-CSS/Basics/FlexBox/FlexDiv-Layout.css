@@ -1,0 +1,40 @@
+*{
+    margin: 5px;
+}
+body{
+    font-size: 25px;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+}
+.flex-header{
+    background-color: red;
+    padding: 3rem 0 3rem 0;
+}
+.flex-main{
+display: flex;
+flex: 1;
+}
+.flex-section{
+    background-color: rgb(40, 14, 173);
+    padding: 3rem;
+    flex: 1 1 5;
+}
+.flex-aticle{
+    background-color: rgb(223, 13, 136);
+    padding: 3rem;
+    flex: 1 1 5;
+}
+.flex-aside{
+    background-color: blueviolet;
+    padding: 3rem;
+    flex: 1 1 5;
+}
+.flex-footer{
+    background-color: aqua;
+    padding: 3rem 0 3rem 0;
+}
+
